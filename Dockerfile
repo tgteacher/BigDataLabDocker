@@ -26,8 +26,3 @@ ENV PATH /.venv/bin:$PATH
 RUN pip install pyspark pytest "dask[complete]"
 
 ENTRYPOINT ["/bin/bash"]
-
-
-
-
-
