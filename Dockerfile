@@ -24,5 +24,3 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 ENV PATH /.venv/bin:$PATH
 
 RUN pip install pyspark pytest "dask[complete]"
-
-ENTRYPOINT ["/bin/bash"]
